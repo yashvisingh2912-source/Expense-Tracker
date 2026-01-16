@@ -1,7 +1,6 @@
 """
 💰 EXPENSE TRACKER APPLICATION
 A complete personal finance management system with MySQL database
-Date: 2024
 """
 
 # ============================================================================
@@ -701,4 +700,5 @@ def main():
 # ENTRY POINT
 # ============================================================================
 if __name__ == "__main__":
+
     main()
