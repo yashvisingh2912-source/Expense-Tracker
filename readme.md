@@ -1,8 +1,9 @@
-Expense Tracker Application
+#Expense Tracker Application
 A command-line based personal finance management system built using Python and MySQL.
-This application allows users to manage expenses, income, budgets, and view financial summaries with visual reports.
+This application allows users to manage expenses, income, budgets,use AI for getting financial Insights and how to increase savings ,  and view financial summaries with visual reports.
 
-Features:
+
+#Features:
 -User Signup & Login (passwords hashed)
 -Add, view, edit, and delete Expenses
 -Add, view, edit, and delete Income
@@ -13,12 +14,13 @@ Features:
 -Expenses by category
 -Monthly expense trends
 -Income vs Expenses comparison
+-AI Insights
 
-Security
+#Security
 -Passwords are stored using SHA-256 hashing
 -Users can only access their own data
 
-Tech Stack
+#Tech Stack
 -Python
 -MySQL
 -Pandas & NumPy
