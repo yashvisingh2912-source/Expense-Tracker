@@ -19,12 +19,6 @@ import google.generativeai as genai
 import os
 os.environ['GRPC_DNS_RESOLVER'] = 'native'
 genai.configure(api_key="AIzaSyBL6ZhW4v1cildkPNw85AU5hQEfAIXE7T8")
-# genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-
-# ============================================================================
-# GEMINI CONFIGURATION
-# ============================================================================
-# genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 # ============================================================================
 # DATABASE CONNECTION
@@ -767,4 +761,5 @@ def main():
 # ENTRY POINT
 # ============================================================================
 if __name__ == "__main__":
+
     main()
